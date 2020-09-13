@@ -32,7 +32,7 @@
                 <span class="tooltip"> Imię: </span>
                 <input type="text" name="firstName" id="name" placeholder="Podaj imię" />
                 </label>
-            <label for="lastName:">
+            <label for="lastName">
                     Nazwisko:<input type="text" name="lastName" id="lastName" placeholder="Podaj nazwisko" />
                 </label>
             <label for="email">

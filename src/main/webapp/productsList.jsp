@@ -8,10 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page isELIgnored="false" %>
-<html>
-<head>
-    <title>Homepage</title>
-</head>
+
 <body>
 <header>
     <jsp:include page="/menu.jsp"></jsp:include>
@@ -21,8 +18,11 @@
 <c:forEach var="product" items="${requestScope.productsList}">
     <tr>
         <h3>Product name: <c:out value="${product.name}"/></h3>
-        <h3>Product price: <c:out value="${product.price}"/></h3>
-        <h3>Tax: <c:out value="${product.tax}"/></h3>
+<%--        <h3>Product price: <c:out value="${product.price}"/></h3>--%>
+<%--        <h3>Tax: <c:out value="${product.tax}"/></h3>--%>
+<%--        <h3>Id: <c:out value="${product.id}"/></h3>--%>
+        <a href="${pageContext.request.contextPath}/product?id=${product.id}">Details</a>
+
     </tr>
 </c:forEach>
 </body>
@@ -32,5 +32,3 @@
     <jsp:include page="/footer.jsp"></jsp:include>
 </footer>
 
-</body>
-</html>

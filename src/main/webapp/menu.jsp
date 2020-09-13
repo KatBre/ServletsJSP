@@ -9,7 +9,8 @@
 <%@ page isELIgnored="false" %>
 
 <a href="index.jsp">Homepage</a>
-<a href="${pageContext.request.contextPath}/product">Products details</a>
 <a href="${pageContext.request.contextPath}/productsList">Products List</a>
+<a href="${pageContext.request.contextPath}/addProduct">Add product</a>
+
 
 

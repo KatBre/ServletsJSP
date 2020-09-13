@@ -8,5 +8,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 <meta charset="UTF-8">
-<h4>&copy; Copyright KB</h4>
+<h6>&copy; Copyright KB</h6>
 

@@ -9,8 +9,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false" %>
 
-<jsp:include page="/menu.jsp"></jsp:include>
+<header>
+    <jsp:include page="/menu.jsp"></jsp:include>
+</header>
+
+
 <h3>Product name: <c:out value="${requestScope.product.name}"/></h3>
 <h3>Product price:  <c:out value="${requestScope.product.price}"/></h3>
 <h3>Tax:  <c:out value="${requestScope.product.tax}"/></h3>
-<jsp:include page="/footer.jsp"></jsp:include>
+<%--<h3>Id:  <c:out value="${requestScope.product.id}"/></h3>--%>
+
+<footer>
+    <jsp:include page="/footer.jsp"></jsp:include>
+</footer>
