@@ -9,7 +9,7 @@
 <%@ page isELIgnored="false" %>
 
 
-<form action="AddProduct" ; method="POST">
+<form action="addProduct" method="POST">
 
     Product name: <br>
     <input type="text" name="productName" placeholder="Type product name"/>

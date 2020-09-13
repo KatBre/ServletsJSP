@@ -22,7 +22,7 @@ public class AddProduct extends HttpServlet {
         Product product = new Product();
         product.setName(req.getParameter("productName"));
         product.setPrice(Double.parseDouble(req.getParameter("productPrice")));
-        product.setPrice(Double.parseDouble(req.getParameter("productPrice")));
+        product.setTax(Double.parseDouble(req.getParameter("productTax")));
         return product;
     }
 
