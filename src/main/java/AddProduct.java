@@ -15,7 +15,7 @@ public class AddProduct extends HttpServlet {
         Product product = createProductFromRequest(req);
 
         ProductsStorage.productsList.add(product);
-        resp.sendRedirect( "/productsList");
+        resp.sendRedirect(req.getContextPath() + "/productsList");
     }
 
     private Product createProductFromRequest(HttpServletRequest req) {

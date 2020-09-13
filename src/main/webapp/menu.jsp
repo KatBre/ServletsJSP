@@ -10,7 +10,7 @@
 
 <a href="index.jsp">Homepage</a>
 <a href="${pageContext.request.contextPath}/productsList">Products List</a>
-<a href="${pageContext.request.contextPath}/addProduct">Add product</a>
+<a href="${pageContext.request.contextPath}/addProduct.jsp">Add product</a>
 
 
 

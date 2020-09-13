@@ -8,7 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 
-
+<header>
+    <jsp:include page="/menu.jsp"></jsp:include>
+</header>
+<html>
+<body>
 <form action="addProduct" method="POST">
 
     Product name: <br>
@@ -24,4 +28,9 @@
 
     <input type="submit" value="Add"/>
 </form>
+</body>
+</html>
+<footer>
+    <jsp:include page="/footer.jsp"></jsp:include>
+</footer>
 
